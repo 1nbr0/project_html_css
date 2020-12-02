@@ -1,4 +1,4 @@
-# Project-HTML-CSS
+# project_html_css
 
 ## 1 - Préambule
 L’objet de cet exercice est de mettre en pratique l’ensemble des sujets abordés durant ce
