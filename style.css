@@ -1,0 +1,31 @@
+.en_tete {
+    width: auto;
+    height: auto;
+    background-color: orangered;
+}
+
+.info_perso{
+    width: 100px;
+    background-color: orchid;
+}
+.block_right{
+
+    width: auto;
+    float: left;
+    background-color: olive;
+
+}
+
+.block_left {
+    
+    width: 255px;
+    float: left;
+    background-color: peachpuff;
+    border-radius: 10px;
+    margin: 0px;
+}
+.photo img {
+    width: 255px;
+    height: auto;
+    border-radius: 250px;
+}
