@@ -1,7 +1,9 @@
 .en_tete {
-    width: auto;
+    background-image: url(images/img_en_tete.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
-    background-color: orangered;
 }
 
 .info_perso{
