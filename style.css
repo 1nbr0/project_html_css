@@ -10,7 +10,8 @@
 }
 .block_right{
 
-    width: auto;
+    width: 100vh;
+    height: 100vh;
     float: left;
     background-color: olive;
 
@@ -19,10 +20,11 @@
 .block_left {
     
     width: 255px;
+    height: 100vh;
     float: left;
     background-color: peachpuff;
     border-radius: 10px;
-    margin: 0px;
+ 
 }
 .photo img {
     width: 255px;
