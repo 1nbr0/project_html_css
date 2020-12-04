@@ -1,35 +1,54 @@
 .en_tete {
+
     background-image: url(images/img_en_tete.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+
 }
 
 .info_perso{
+
     width: 100px;
     background-color: orchid;
-}
-.block_right{
-
-    width: 100vh;
-    height: 100vh;
-    float: left;
-    background-color: olive;
 
 }
 
-.block_left {
-    
-    width: 255px;
-    height: 100vh;
-    float: left;
-    background-color: peachpuff;
-    border-radius: 10px;
- 
+.blocks{
+
+    max-width: 1080px;
+    height: 935px;
+    margin: 0 auto;
+    background-color: black;
 }
+
+.block_middle{
+
+    background-image: url(images/img_block_right.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 935px;
+
+}
+
+.block_middle_2{
+
+    background-image: url(images/img_block_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 930px;
+
+}
+
 .photo img {
+
     width: 255px;
-    height: auto;
     border-radius: 250px;
+    margin-left: 800px;
+    margin-top: 250px;
+
 }
+
