@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .en_tete {
 
     background-image: url(images/img_en_tete.jpg);
@@ -13,6 +17,10 @@
     width: 100px;
     background-color: orchid;
 
+}
+
+.info_perso p {
+    margin: 0;
 }
 
 .nom_prenom p{
@@ -76,4 +84,3 @@
     margin-top: 50px;
 
 }
-
