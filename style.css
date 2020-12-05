@@ -3,36 +3,32 @@ body {
 }
 
 .en_tete {
-
     background-image: url(images/img_en_tete.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-
 }
 
-.info_perso{
-
-    width: 100px;
+.info_perso {
+    position: relative;
+    width: 200px;
     background-color: orchid;
-
 }
 
 .info_perso p {
     margin: 0;
 }
 
-.nom_prenom p{
-
+.nom_prenom p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     text-align: center;
     margin-top: 3em;
     font-size: 1.5em;
     width: 100%;
-
 }
+
 .nom_prenom a {
     text-decoration: none;
     text-decoration-line: none;
@@ -42,45 +38,37 @@ body {
 }
 
 .nom_prenom p span {
-
     font-weight: bold;
-    color: #37E1CF;
-
+    color: dodgerblue;
 }
 
-.blocks{
-
+.blocks {
     max-width: 1080px;
     height: 935px;
     margin: 0 auto;
     background-color: black;
 }
 
-.block_middle{
-
+.block_middle {
     background-image: url(images/img_block_right.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 935px;
-
 }
 
-.block_middle_2{
-
+.block_middle_2 {
     background-image: url(images/img_block_2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 930px;
-
 }
 
 .photo img {
-
     width: 255px;
+    border: 3px lightseagreen inset;
     border-radius: 250px;
     margin-left: 800px;
     margin-top: 50px;
-
 }
