@@ -2,6 +2,40 @@ body {
     margin: 0;
 }
 
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    transition: top .2s ease-in-out;
+}
+
+#menu{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+.menu-horizontal{
+    padding: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#menu a{
+    font-size: 15px;
+    color: #eee;
+    text-decoration: none;
+}
 .en_tete {
     background-image: url(images/img_en_tete.jpg);
     background-size: cover;
