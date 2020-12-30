@@ -234,3 +234,23 @@ h1 {
     padding: 4.5%;
     color: #ddd;
 }
+
+#reseaux a{
+    text-align:center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#reseaux ul {
+    list-style-type: none;
+    display: flex;
+    padding: 5%;
+}
+
+#reseaux img{
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
