@@ -181,7 +181,7 @@ h1 {
 }
 
 #first_form p{
-    color: #ddd;
+    color: white;
 }
 
 #second_form{
@@ -189,7 +189,7 @@ h1 {
 }
 
 #second_form p{
-    color: #ddd;
+    color: white;
 }
 
 #title_form {
@@ -198,26 +198,73 @@ h1 {
     margin-top: 5%;
 }
 .background_exp{
-    background-color: red;
+    background-color: dimgrey;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-}
-.background_left {
-    background-image: url(images/airbus.jpg);
-    display: inline-block;
-    height: 350px;
-    width: 500px;
-    position: absolute;
+    text-align: center;
+    height: 500px;
 }
 
-.background_right {
-    background-image: url(images/rochefort.jpg);
-    display: inline-block;
-    height: 350px;
-    width: 500px;
-    position: absolute;
+#title_exp{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#first_exp{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 25px;
+    color: white;
+}
+
+#first_exp a{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+#first_exp span{
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+#first_exp p{
+    color: white;
+    font-size: 20px;
+}
+
+#second_exp{
+    font-size: 25px;
+    color: white;
+}
+
+#second_exp p{
+    color: white;
+    font-size: 20px;
+}
+
+#title_comp{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.background_comp{
+    background-image: url(images/space_ring.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+    color: white;
 }
 
 .photo {
