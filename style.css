@@ -197,6 +197,28 @@ h1 {
     margin-bottom: 5%;
     margin-top: 5%;
 }
+.background_exp{
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.background_left {
+    background-image: url(images/airbus.jpg);
+    display: inline-block;
+    height: 350px;
+    width: 500px;
+    position: absolute;
+}
+
+.background_right {
+    background-image: url(images/rochefort.jpg);
+    display: inline-block;
+    height: 350px;
+    width: 500px;
+    position: absolute;
+}
 
 .photo {
     padding: 30px;
@@ -251,6 +273,6 @@ h1 {
     padding-left: 5px;
     padding-right: 5px;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
