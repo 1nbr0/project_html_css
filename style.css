@@ -362,7 +362,7 @@ label {
 }
 
 .bloc_informa_2{
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .background_informa label {
@@ -551,6 +551,14 @@ label {
 
 /* Fin Page Informatique */
 
+/* Début Page Centres d'Intérêt */
+#title_interet{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/* Fin Page Centres d'Intérêt */
 /* Début Bas de Page */
 .footer_menu{
     text-align: center;
