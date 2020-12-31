@@ -504,6 +504,51 @@ label {
 
 /* Fin barre EXCEL */
 
+.react{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+/* Début barre REACT NATIVE */
+.progress_4{
+    text-align: center;
+}
+.progress-bar-4 { 
+    width: 300px;
+    height: 7px;
+    padding: 3.5px;
+    margin-left: 800px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+.progress-bar-4:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 7.5px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.blue:before { 
+  background:dodgerblue;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(dodgerblue), to(#006A6B));
+  background: -moz-linear-gradient(top, rgb(2, 214, 214), #006A6B);
+} 
+
+/* Fin barre REACT NATIVE */
+
 /* Fin Page Informatique */
 
 /* Début Bas de Page */
