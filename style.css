@@ -504,12 +504,12 @@ label {
 
 /* Fin barre EXCEL */
 
-.react{
+.script{
     text-align: center;
     padding-top: 3%;
     padding-bottom: 1%;
 }
-/* Début barre REACT NATIVE */
+/* Début barre JAVASCRIPT */
 .progress_4{
     text-align: center;
 }
@@ -530,7 +530,7 @@ label {
     content: '';
     display: block;
     position: absolute;
-    width: 120px;
+    width: 40px;
     height: 7.5px;
     background: #999;
     border-radius: 12px;
@@ -547,8 +547,7 @@ label {
   background: -moz-linear-gradient(top, rgb(2, 214, 214), #006A6B);
 } 
 
-/* Fin barre REACT NATIVE */
-
+/* Fin barre JAVASCRIPT */
 /* Fin Page Informatique */
 
 /* Début Page Centres d'Intérêt */
@@ -558,6 +557,32 @@ label {
     margin-top: 5%;
 }
 
+.background_basket{
+    background-image: url(images/kobe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 700px;
+}
+
+.background_voyages{
+    background-color:blueviolet;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 350px;
+}
+
+.background_culture{
+    background-color: rgb(143, 143, 155);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 350px;
+}
 /* Fin Page Centres d'Intérêt */
 /* Début Bas de Page */
 .footer_menu{
