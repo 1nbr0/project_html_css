@@ -3,6 +3,7 @@ body {
 }
 
 div {
+    font-family: Helvetica;
     display: block;
 }
 
@@ -23,7 +24,7 @@ h1 {
     z-index: 1000;
     top: 0;
     transition: top .2s ease-in-out;
-    background-color: dimgrey;
+    background-color: rgb(48, 43, 43);
 }
 
 #menu {
@@ -123,7 +124,7 @@ h1 {
 }
 
 .top_pres p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Helvetica;
     color: white;
     font-size: 1.2em;
 }
@@ -138,7 +139,7 @@ h1 {
 
 .top_pres p span {
     font-weight: bold;
-    color: dodgerblue;
+    color: rgb(113, 157, 201);
 }
 
 #bloc_princ_pres {
@@ -152,7 +153,7 @@ h1 {
 
 .background_pres {
     width: 100%;
-    background-color: dimgrey;
+    background-color:  rgb(48, 43, 43);
     height: auto;
     box-shadow: 1px 1px 25px rgba(151, 136, 136, .35);
     text-align: center;
@@ -171,7 +172,7 @@ h1 {
 }
 
 #inf_contact strong {
-    color: dodgerblue;
+    color: rgb(113, 157, 201);
 }
 /* Fin Première Page & Présentation */
 
@@ -189,24 +190,44 @@ h1 {
     height: 350px;
     width: 500px;
     position: absolute;
-    padding: 5%;
-    text-align: center;
+    padding: 7%;
+    text-align: left;
     font-size: 1.2em;
 }
 #first_form{
     padding: 1%;
 }
 
+#first_form h3{
+    margin: 0;
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
 #first_form p{
     color: white;
+    margin: 0;
 }
 
 #second_form{
     padding: 1%;
 }
 
+#second_form h3{
+    margin: 0;
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 9%;
+    padding-bottom: 2%;
+}
+
 #second_form p{
     color: white;
+    margin: 0;
 }
 
 #title_form {
@@ -218,7 +239,7 @@ h1 {
 
 /* Début Page des Expériences */
 .background_exp{
-    background-color: dimgrey;
+    background-color:  rgb(48, 43, 43);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -249,7 +270,7 @@ h1 {
 
 #first_exp span{
     font-weight: bold;
-    color: dodgerblue;
+    color: rgb(113, 157, 201);
 }
 
 #first_exp p{
@@ -558,37 +579,78 @@ label {
 }
 
 .background_basket{
-    background-image: url(images/kobe.jpg);
+    background-image: url(images/kobe_2.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     text-align: center;
-    height: 700px;
+    height: 400px;
+}
+
+.text_basket{
+    display: inline-block;
+    height: 300px;
+    width: 650px;
+    position: absolute;
+    padding: 3%;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
 }
 
 .background_voyages{
-    background-color:blueviolet;
+    background-image: url(images/voyage.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    height: 350px;
+    height: 400px;
+}
+
+.text_voyages{
+    display: inline-block;
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    padding: 3%;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
 }
 
 .background_culture{
-    background-color: rgb(143, 143, 155);
+    background-image: url(images/culture.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    height: 350px;
+    height: 400px;
+}
+
+.text_culture{
+    display: inline-block;
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+
+.text_culture h2{
+    margin: 0;
+}
+
+.text_culture p{
+    margin-top: 2%;
 }
 /* Fin Page Centres d'Intérêt */
 /* Début Bas de Page */
 .footer_menu{
     text-align: center;
-    height: 600px;
-    background-color: dimgrey;
+    height: auto;
+    background-color:  rgb(48, 43, 43);
 }
 
 .footer_bloc_mid{
