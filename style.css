@@ -26,25 +26,28 @@ h1 {
 /* Début Haut de Page & Menu déroulant */
 @media all and (max-width: 1024px)
 {
+    .header{
+        display: none;
+    }
+
     #menu
     {
-        width: auto;
-        text-align: left;
+        display: none;
     }
     
     #menu ul
     {
-        flex-direction: column;
+        display: none;
     }
 
     #menu li
     {
-        padding-left: 4px;
+        display: none;
     }
     
     #menu a
     {
-        font-size: 1.1em;
+        display: none;
     }
     
     .CV a:hover
@@ -65,7 +68,8 @@ h1 {
     z-index: 1000;
     top: 0;
     transition: top .2s ease-in-out;
-    background-color: rgb(48, 43, 43);
+    background-color:rgb(48, 43, 43);
+    box-shadow: 1px 1px 25px rgba(151, 136, 136, .35);
 }
 
 #menu {
@@ -170,7 +174,7 @@ h1 {
 
 .top_pres p {
     font-family: Helvetica;
-    color: white;
+    color: black;
     font-size: 1.2em;
 }
 
@@ -184,7 +188,7 @@ h1 {
 
 .top_pres p span {
     font-weight: bold;
-    color: rgb(113, 157, 201);
+    color: rgb(53, 130, 206);
 }
 
 #bloc_princ_pres {
@@ -198,7 +202,7 @@ h1 {
 
 .background_pres {
     width: 100%;
-    background-color:  rgb(48, 43, 43);
+    background-color:  rgb(231, 231, 231);
     height: auto;
     box-shadow: 1px 1px 25px rgba(151, 136, 136, .35);
     text-align: center;
@@ -212,12 +216,12 @@ h1 {
 
 #inf_contact {
     padding-top: 1%;
-    color: #ddd;
+    color: black;
     font-size: 1.1em;
 }
 
 #inf_contact strong {
-    color: rgb(113, 157, 201);
+    color: rgb(53, 130, 206);
 }
 /* Fin Première Page & Présentation */
 
@@ -227,6 +231,7 @@ h1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 1px 1px 25px rgba(151, 136, 136, .35);  
     height: 100vh;
 }
 
@@ -284,10 +289,11 @@ h1 {
 
 /* Début Page des Expériences */
 .background_exp{
-    background-color:  rgb(48, 43, 43);
+    background-color:  rgb(231, 231, 231);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 1px 1px 25px rgba(151, 136, 136, .35);
     text-align: center;
     height: 500px;
 }
@@ -302,7 +308,7 @@ h1 {
     padding-top: 5%;
     padding-bottom: 2%;
     font-size: 25px;
-    color: white;
+    color: black;
 }
 
 #first_exp a{
@@ -315,21 +321,21 @@ h1 {
 
 #first_exp span{
     font-weight: bold;
-    color: rgb(113, 157, 201);
+    color: rgb(53, 130, 206);
 }
 
 #first_exp p{
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
 #second_exp{
     font-size: 25px;
-    color: white;
+    color: black;
 }
 
 #second_exp p{
-    color: white;
+    color: black;
     font-size: 20px;
 }
 /* Fin Page des Expériences */
