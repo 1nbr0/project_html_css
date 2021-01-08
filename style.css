@@ -789,6 +789,40 @@ label {
         color: white;
     }
 
+    .background_informa{
+        height: auto;
+    }
+
+    .bloc_informa_2{
+        padding-top: 0.5%;
+        height: auto;
+    }
+
+    .background_informa label{
+        color: black;
+        font-size: 1em;
+    }
+}
+
+@media all and (max-width: 1280px){
+    .background_comp{
+        height: auto;
+    }
+
+    .bloc_comp_2 {
+        height: auto;
+    }
+
+    .fleader {
+        font-size: 1em;
+    }
+
+    .comp_1 p{
+        font-size: 0.9em;
+    }
+}
+
+@media all and (max-width: 1024px){
     .background_comp{
         height: auto;
     }
@@ -804,20 +838,61 @@ label {
     .comp_1 p{
         font-size: 0.8em;
     }
+}
 
-    .background_informa{
+@media all and (max-width: 992px){
+    .background_comp{
         height: auto;
     }
 
-    .bloc_informa_2{
-        padding-top: 0.5%;
+    .bloc_comp_2 {
         height: auto;
     }
 
-    .background_informa label{
-        color: black;
-        font-size: 1em;
+    .fleader {
+        font-size: 0.7em;
+    }
+
+    .comp_1 p{
+        font-size: 0.6em;
     }
 }
+
+@media all and (max-width: 768px){
+    .background_comp{
+        height: auto;
+    }
+
+    .bloc_comp_2 {
+        height: auto;
+    }
+
+    .fleader {
+        font-size: 0.6em;
+    }
+
+    .comp_1 p{
+        font-size: 0.5em;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 600px){
+    .background_comp{
+        height: auto;
+    }
+
+    .bloc_comp_2 {
+        height: auto;
+    }
+
+    .fleader {
+        font-size: 0.5em;
+    }
+
+    .comp_1 p{
+        font-size: 0.4em;
+    }
+}
+
 
 /* Fn MediaQuerry */
