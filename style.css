@@ -2,12 +2,6 @@ body {
     margin: auto;
 }
 
-@media all and (max-width: 1024px){
-    body{
-        width: auto;
-    }
-}
-
 div {
     font-family: Helvetica;
     display: block;
@@ -21,45 +15,6 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-
-/* Début Haut de Page & Menu déroulant */
-@media all and (max-width: 1024px)
-{
-    .header{
-        display: none;
-    }
-
-    #menu
-    {
-        display: none;
-    }
-    
-    #menu ul
-    {
-        display: none;
-    }
-
-    #menu li
-    {
-        display: none;
-    }
-    
-    #menu a
-    {
-        display: none;
-    }
-    
-    .CV a:hover
-    {
-        border-bottom: 0;
-        display: none;
-    }
-
-    .CV a:hover p{
-        display: none;
-    }
-    
 }
 
 .header {
@@ -128,17 +83,13 @@ h1 {
 /* Fin Haut de Page & Menu déroulant */
 
 /* Début Première Page & Présentation */
+
 .en_tete {
     background-image: url(images/img_en_tete.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-}
-@media all and (max-width: 1024px){
-    .quote{
-        display: none;
-    }
 }
 
 .quote {
@@ -167,6 +118,7 @@ h1 {
     width: 160px;
 }
 /* Fin de Photo de Présentation */
+
 
 .top_pres {
     text-align: center;
@@ -238,9 +190,9 @@ h1 {
 .bloc_left{
     display: inline-block;
     height: 350px;
-    width: 500px;
+    width: auto;
     position: absolute;
-    padding: 7%;
+    padding: 5%;
     text-align: left;
     font-size: 1.2em;
 }
@@ -253,8 +205,7 @@ h1 {
     display: block;
     font-size: 1.3em;
     font-weight: bold;
-    padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 0.5%;
 }
 
 #first_form p{
@@ -271,8 +222,8 @@ h1 {
     display: block;
     font-size: 1.3em;
     font-weight: bold;
-    padding-top: 9%;
-    padding-bottom: 2%;
+    padding-top: 4%;
+    padding-bottom: 0.5%;
 }
 
 #second_form p{
@@ -358,7 +309,11 @@ h1 {
 /* Bloc & Barres de compétences */
 
 .bloc_comp_2{
-    padding-top: 5%;
+    margin: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 9%;
 }
 
 .leader{
@@ -388,7 +343,7 @@ h1 {
     text-align: center;
 }
 
-#file{
+.file{
     width: 15%;
 }
 
@@ -399,21 +354,10 @@ label {
 
 .comp_1 p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
 }
 
-.comp_2 p{
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
-}
-
-.comp_3 p{
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
-}
 /* Fin Bloc & Barres de compétences */
 /* Fin Page des Compétences */
 
@@ -448,13 +392,14 @@ label {
 }
 /* Début barre HTML&CSS */
 .progress{
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 .progress-bar { 
     width: 300px;
     height: 7px;
     padding: 3.5px;
-    margin-left: 800px;
+    margin: auto;
     background-color: #191919;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -467,7 +412,7 @@ label {
     content: '';
     display: block;
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 7.5px;
     background: #999;
     border-radius: 12px;
@@ -492,13 +437,14 @@ label {
 }
 /* Début barre WORD */
 .progress_2{
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 .progress-bar-2 { 
     width: 300px;
     height: 7px;
     padding: 3.5px;
-    margin-left: 800px;
+    margin: auto;
     background-color: #191919;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -511,7 +457,7 @@ label {
     content: '';
     display: block;
     position: absolute;
-    width: 150px;
+    width: 200px;
     height: 7.5px;
     background: #999;
     border-radius: 12px;
@@ -538,13 +484,14 @@ label {
 }
 /* Début barre EXCEL */
 .progress_3{
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 .progress-bar-3 { 
     width: 300px;
     height: 7px;
     padding: 3.5px;
-    margin-left: 800px;
+    margin: auto;
     background-color: #191919;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -557,7 +504,7 @@ label {
     content: '';
     display: block;
     position: absolute;
-    width: 120px;
+    width: 110px;
     height: 7.5px;
     background: #999;
     border-radius: 12px;
@@ -583,13 +530,14 @@ label {
 }
 /* Début barre JAVASCRIPT */
 .progress_4{
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 .progress-bar-4 { 
     width: 300px;
     height: 7px;
     padding: 3.5px;
-    margin-left: 800px;
+    margin: auto;
     background-color: #191919;
     border-radius: 16px;
     -webkit-border-radius: 16px;
@@ -602,7 +550,7 @@ label {
     content: '';
     display: block;
     position: absolute;
-    width: 40px;
+    width: 60px;
     height: 7.5px;
     background: #999;
     border-radius: 12px;
@@ -641,7 +589,7 @@ label {
 .text_basket{
     display: inline-block;
     height: 300px;
-    width: 650px;
+    width: auto;
     position: absolute;
     padding: 3%;
     text-align: left;
@@ -661,7 +609,7 @@ label {
 .text_voyages{
     display: inline-block;
     height: 300px;
-    width: 550px;
+    width: auto;
     position: absolute;
     padding: 3%;
     text-align: left;
@@ -681,7 +629,7 @@ label {
 .text_culture{
     display: inline-block;
     height: 300px;
-    width: 550px;
+    width: auto;
     position: absolute;
     padding: 2%;
     text-align: left;
@@ -745,3 +693,131 @@ label {
     margin-right: 20px;
 }
 /* Fin de Bas de Page */
+
+/* MediaQuerry - Body - Nouvelles règles si la fenêtre fait au plus 1024px de large */
+
+@media all and (max-width: 1024px){
+    body{
+        width: auto;
+    }
+}
+
+@media all and (max-width: 1024px)
+{
+    .header{
+        display: none;
+    }
+
+    #menu
+    {
+        display: none;
+    }
+    
+    #menu ul
+    {
+        display: none;
+    }
+
+    #menu li
+    {
+        display: none;
+    }
+    
+    #menu a
+    {
+        display: none;
+    }
+    
+    .CV a:hover
+    {
+        border-bottom: 0;
+        display: none;
+    }
+
+    .CV a:hover p{
+        display: none;
+    }
+    
+}
+
+@media all and (max-width: 1024px){
+    .quote{
+        display: none;
+    }
+}
+
+@media all and (max-width: 1024px){
+    .top_pres p {
+        color: white;
+    }
+
+    .background_pres {
+        background-color: rgb(34, 32, 32);
+        width: auto;
+    }
+
+    #inf_contact{
+        color: white;
+    }
+}
+
+@media all and (max-width: 1024px){
+    #first_form h3{
+        display: flex;
+    }
+}
+
+@media all and (max-width: 1024px){
+    .background_exp{
+        background-color: rgb(34, 32, 32);
+        height: auto;
+    }
+
+    #first_exp{
+        color: white;
+    }
+
+    #first_exp p{
+        color: white;
+    }
+
+    #second_exp{
+        color: white;
+    }
+
+    #second_exp p{
+        color: white;
+    }
+
+    .background_comp{
+        height: auto;
+    }
+
+    .bloc_comp_2 {
+        height: auto;
+    }
+
+    .fleader {
+        font-size: 0.9em;
+    }
+
+    .comp_1 p{
+        font-size: 0.8em;
+    }
+
+    .background_informa{
+        height: auto;
+    }
+
+    .bloc_informa_2{
+        padding-top: 0.5%;
+        height: auto;
+    }
+
+    .background_informa label{
+        color: black;
+        font-size: 1em;
+    }
+}
+
+/* Fn MediaQuerry */
