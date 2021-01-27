@@ -50,6 +50,79 @@ h1 {
     text-decoration: none;
 }
 
+.button {
+    background-color: rgb(48, 43, 43);
+    border: none;
+    border-radius: 16px;
+    padding: 8px 20px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.button1 {
+    background-color: rgb(48, 43, 43)hite; 
+    color: white;
+    border: 2px solid white;
+    font-family: Helvetica;
+}
+
+.button1:hover {
+    background-color:white;
+    color: black;
+}
+
+.button2 {
+    background-color: rgb(48, 43, 43)hite; 
+    color: white;
+    border: 2px solid white;
+    font-family: Helvetica;
+}
+
+.button2:hover {
+    background-color:white;
+    color: black;
+}
+
+.button3 {
+    background-color: rgb(48, 43, 43)hite; 
+    color: white;
+    border: 2px solid white;
+    font-family: Helvetica;
+}
+
+.button3:hover {
+    background-color:white;
+    color: black;
+}
+
+.button4 {
+    background-color: rgb(48, 43, 43)hite; 
+    color: white;
+    border: 2px solid white;
+    font-family: Helvetica;
+}
+
+.button4:hover {
+    background-color:white;
+    color: black;
+}
+
+.button5 {
+    background-color: rgb(48, 43, 43)hite; 
+    color: white;
+    border: 2px solid white;
+    font-family: Helvetica;
+}
+
+.button5:hover {
+    background-color:white;
+    color: black;
+}
+
 .CV {
     padding-left: 15px;
 }
