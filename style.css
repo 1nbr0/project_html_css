@@ -50,6 +50,7 @@ h1 {
     text-decoration: none;
 }
 
+/* Début des boutton du menu déroulant de haut de page */
 .button {
     background-color: rgb(48, 43, 43);
     border: none;
@@ -63,6 +64,7 @@ h1 {
     transition: all 1s ease-out;
 }
 
+/* Premier Boutton & Hover */
 .button1 {
     background-color: rgb(48, 43, 43); 
     color: white;
@@ -74,7 +76,10 @@ h1 {
     background-color:white;
     color: black;
 }
+/* Fin Premier Boutton & Hover */
 
+
+/* Deuxième Boutton & Hover */
 .button2 {
     background-color: rgb(48, 43, 43); 
     color: white;
@@ -86,7 +91,10 @@ h1 {
     background-color:white;
     color: black;
 }
+/* Fin Deuxième Boutton & Hover */
 
+
+/* Troisième Boutton & Hover */
 .button3 {
     background-color: rgb(48, 43, 43); 
     color: white;
@@ -98,7 +106,10 @@ h1 {
     background-color:white;
     color: black;
 }
+/* Fin Troisième Boutton & Hover */
 
+
+/* Quatrième Boutton & Hover */
 .button4 {
     background-color: rgb(48, 43, 43); 
     color: white;
@@ -110,7 +121,10 @@ h1 {
     background-color:white;
     color: black;
 }
+/* Fin Quatrième Boutton & Hover */
 
+
+/* Cinquième Boutton & Hover */
 .button5 {
     background-color: rgb(48, 43, 43); 
     color: white;
@@ -122,6 +136,9 @@ h1 {
     background-color:white;
     color: black;
 }
+/* Fin Cinquième Boutton & Hover */
+
+/* Fin des boutton du menu déroulant de haut de page */
 
 .CV {
     padding-left: 15px;
